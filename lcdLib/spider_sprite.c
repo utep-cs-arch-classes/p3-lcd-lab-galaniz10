@@ -1,6 +1,6 @@
 #include "lcdutils.h"
 
-const unsigned int web_idle[28][21] =
+const unsigned int spider_idle[28][21] =
 {
 //0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2  
  {7,7,7,7,7,7,7,7,7,7,3,7,7,7,7,7,7,7,7,7,7},//0

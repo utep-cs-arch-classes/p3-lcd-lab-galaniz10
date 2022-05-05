@@ -1,8 +1,8 @@
 # makfile configuration
-COMMON_OBJECTS		= draw_shapes.o
-CPU             	= msp430g2553
-CFLAGS          	= -mmcu=${CPU} -Os -I../h
-LDFLAGS		= -L../lib -L/opt/ti/msp430_gcc/include/ 
+COMMON_OBJECTS        = draw_shapes.o wdtInterruptHandler.o shape_demo.o
+CPU                 = msp430g2553
+CFLAGS              = -mmcu=${CPU} -Os -I../h
+LDFLAGS        = -L../lib -L/opt/ti/msp430_gcc/include/ 
 
 #switch the compiler (for the internal make rules)
 CC              = msp430-elf-gcc
@@ -18,4 +18,4 @@ load: shape_demo.elf
 	msp430loader.sh $^
 
 clean:
-	rm -f *.o *.elf
+	rm -f .o.elf

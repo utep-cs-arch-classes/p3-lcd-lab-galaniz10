@@ -12,7 +12,7 @@ typedef unsigned int u_int;
 
 extern const unsigned int duck_idle[31][20];
 extern const unsigned int spiderman_idle[29][19];
-extern const unsigned int web_idle[28][21];
+extern const unsigned int spider_idle[28][21];
 extern const unsigned char font_5x7[96][5];
 extern const unsigned char font_8x12[95][12];
 extern const unsigned int font_11x16[95][11];

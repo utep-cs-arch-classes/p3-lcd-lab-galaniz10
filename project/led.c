@@ -24,4 +24,3 @@ void led_update(void)
     led_changed = 0;
   }
 }
-
